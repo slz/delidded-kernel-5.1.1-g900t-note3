@@ -54,6 +54,7 @@
 #include <libfdt.h>
 
 #include "libfdt_internal.h"
+#include <limits.h>
 
 int fdt_check_header(const void *fdt)
 {
